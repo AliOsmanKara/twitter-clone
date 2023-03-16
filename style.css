@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+}
+
+.header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 12px;
+    justify-content: flex-start;
+    flex-grow: 1;
+    width: 275px;
+    border-right: 1px solid rgb(239, 243, 244);
+
+
+}
+
+.header .up-bar {
+    width: 250px;
+}
+
+.header .twt-logo {
+    font-size: 28.38px;
+    color: #1D9BF0;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3 ease-in-out;
+    border-radius: 50%;
+
+}
+
+.header .twt-logo:hover {
+    background-color: #E8F5FD;
+
+}
+
+
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 12px;
+    height: 50px;
+    border-radius: 20px;
+    display: inline-flex;
+    margin: 4px 0;
+
+}
+
+.navbar ul li:hover {
+    background-color: #E7E7E8;
+
+}
+
+.navbar ul li i {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+
+
+}
+
+.header .twt-creating .btn-primary {
+    width: 90%;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border-radius: 9999px;
+    display: flex;
+    min-height: 52px;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    border: none;
+    font-weight: 700;
+    padding: 0 32px;
+}
+
+.btn-primary:hover {
+    background-color: #1A8CD8;
+
+}
+
+.header .bottom-bar {
+    margin-top: auto;
+    display: flex;
+    width: 250px;
+
+}
+
+.bottom-bar .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    height: 60px;
+    border-radius: 25px;
+    width: 100%;
+
+}
+
+.profile .photo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header .profile:hover {
+    background-color: #E7E7E8;
+}
+
+.header .p-name {
+    padding: 0 10px;
+}
+
+.header .p-name h3 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.header.p-name p {
+    font-weight: 15px;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.main .main-container {
+    width: 990px;
+
+}
