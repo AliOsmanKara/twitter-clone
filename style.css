@@ -165,6 +165,7 @@ body {
 
 .main .main-container {
     flex: 1 1;
+    max-width: 600px;
 }
 
 .main-container .twt-tabs {
@@ -334,8 +335,92 @@ body {
     height: 100%;
     border-left: 1px solid rgb(239, 243, 244);
     flex: 1 1;
+    padding-left: 12px;
+
 }
 
 .trends .sections {
     width: 350px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin-right: 10px;
+
+}
+
+.trends .search-input-wrapper {
+    position: relative;
+    padding-top: 5px;
+    margin-bottom: 12px;
+
+
+
+}
+
+.search-input-wrapper input {
+    position: relative;
+    padding-left: 38px;
+    background-color: #EFF3F4;
+    border-radius: 9999px;
+    height: 44px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+
+}
+
+.search-input-wrapper i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translatey(-50%);
+    font-size: 15px;
+
+}
+
+.sections .trend-cards {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #F7F9F9;
+}
+
+.trend-cards .f-you {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 12px 16px;
+}
+
+.trend-cards .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 82px;
+    padding: 12px 16px;
+
+
+}
+
+.cards .card-name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+}
+
+.cards .card-name i {
+    font-size: 15px;
+}
+
+.cards .card-body {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.cards .card-info {
+    font-size: 13px;
+    margin-top: 5px;
 }
