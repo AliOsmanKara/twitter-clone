@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -39,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
     border-radius: 50%;
 
 }
@@ -107,6 +109,10 @@ body {
     padding: 0 32px;
 }
 
+.btn-primary i {
+    display: none;
+}
+
 .btn-primary:disabled {
     background-color: #8ECDF7;
 }
@@ -153,8 +159,8 @@ body {
     font-weight: 700;
 }
 
-.header.p-name p {
-    font-weight: 15px;
+.header .p-name p {
+    font-size: 15px;
 }
 
 .main {
@@ -286,7 +292,7 @@ body {
     min-height: 36px;
     justify-content: center;
     align-items: center;
-    transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .main-container .happening .things li:not(:first-child) {
@@ -416,7 +422,7 @@ body {
     list-style-type: none;
     justify-content: space-between;
     font-size: 13px;
-    transition: all 0, 3 ease-in-out;
+    transition: all 0.3s ease-in-out;
     align-items: center;
 }
 
@@ -584,4 +590,76 @@ body {
 .cards .card-info {
     font-size: 13px;
     margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 12px 0;
+
+    }
+
+    .header .up-bar {
+        width: auto;
+        align-items: flex-end;
+        margin-left: 18px;
+    }
+
+    .header .navbar a {
+        display: none;
+    }
+
+    .btn-primary {
+        width: 50px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .up-bar .btn-primary i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .up-bar .btn-primary span {
+        display: none;
+    }
+
+    .header .bottom-bar {
+        width: auto;
+        align-items: flex-end;
+    }
+
+    .header .bottom-bar .p-name {
+        display: none;
+    }
+
+    .header .bottom-bar .p-more {
+        display: none;
+    }
+
+    .header .twt-creating .btn-primary {
+        width: 50px;
+
+    }
+
+    .main .main-container .happening {
+        border-right: 1px solid rgb(239, 243, 244);
+
+    }
+
+    .main-container .tweets .tweet-cards {
+        border-right: 1px solid rgb(239, 243, 244);
+    }
+
+    .main .trends {
+        display: none;
+    }
+
+
 }
