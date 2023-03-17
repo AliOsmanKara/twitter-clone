@@ -328,6 +328,162 @@ body {
 
 } */
 
+.main-container .tweet-cards {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(239, 243, 244);
+}
+
+.main-container .tweet-cards:hover {
+    background-color: #E7E7E8
+}
+
+.tweet-cards .owner-profile-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 12px;
+    padding: 12px;
+}
+
+.owner-profile-wrapper .owner-profile {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.tweet-cards .twt-contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tweet-cards .twt-tittles {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+    padding: 12px 12px 0 0;
+    margin-bottom: 2px;
+}
+
+.twt-tittles .twt-name {
+    display: flex;
+}
+
+
+
+.twt-name span.spn-1 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.twt-name span.spn-2 {
+    font-size: 15px;
+}
+
+
+.twt-name i .fa-solid {
+    height: 18.75px;
+    width: 18.75px;
+    font-size: 15px;
+}
+
+.twt-tittles .twt-explanation {
+    font-size: 15px;
+}
+
+.twt-contents .twt-icons-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.twt-icons-wrapper .twt-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 12px 60px 12px 0;
+}
+
+
+
+.twt-icons li {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 13px;
+    transition: all 0, 3 ease-in-out;
+    align-items: center;
+}
+
+.twt-icons .icon-wrapper {
+    width: 34.75px;
+    height: 34.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.twt-icons li.color-1:hover {
+    color: #E8F5FD;
+}
+
+.twt-icons li.color-1:hover .icon-wrapper {
+    background-color: #E8F5FD;
+}
+
+.twt-icons li.color-1:hover i {
+    color: #E8F5FD;
+}
+
+
+.twt-icons li.color-2:hover {
+    color: #DEF1EB;
+}
+
+.twt-icons li.color-2:hover .icon-wrapper {
+    background-color: #DEF1EB;
+}
+
+.twt-icons li.color-2:hover i {
+    color: #DEF1EB;
+}
+
+.twt-icons li.color-3:hover {
+    color: #F7e0eb;
+
+}
+
+.twt-icons li.color-3:hover .icon-wrapper {
+
+    background-color: #F7e0eb;
+}
+
+.twt-icons li.color-3:hover i {
+    color: #F7e0eb;
+
+}
+
+
+.twt-icons li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.twt-icons li a span {
+    padding: 0 7px;
+    margin: auto;
+}
+
+
 .main .trends {
     display: flex;
     justify-content: flex-start;
@@ -400,6 +556,11 @@ body {
     height: 82px;
     padding: 12px 16px;
 
+
+}
+
+.trend-cards .cards:hover {
+    background-color: #E7E7E8;
 
 }
 
