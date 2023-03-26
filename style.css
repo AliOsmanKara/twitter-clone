@@ -433,10 +433,12 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    margin-right: 4px;
 }
 
-.twt-icons li.color-1:hover {
-    color: #E8F5FD;
+.twt-icons li.color-1:hover,
+.twt-icons li.color-1:hover .icon-wrapper i {
+    color: #1D9BF0;
 }
 
 .twt-icons li.color-1:hover .icon-wrapper {
@@ -444,24 +446,28 @@ body {
 }
 
 .twt-icons li.color-1:hover i {
-    color: #E8F5FD;
+    color: #1D9BF0;
 }
 
 
-.twt-icons li.color-2:hover {
-    color: #DEF1EB;
+.twt-icons li.color-2:hover,
+.twt-icons li.color-2:hover .icon-wrapper i {
+    color: #45CB9E;
 }
 
 .twt-icons li.color-2:hover .icon-wrapper {
     background-color: #DEF1EB;
 }
 
+
+
 .twt-icons li.color-2:hover i {
     color: #DEF1EB;
 }
 
-.twt-icons li.color-3:hover {
-    color: #F7e0eb;
+.twt-icons li.color-3:hover,
+.twt-icons li.color-3:hover .icon-wrapper i {
+    color: #F91880;
 
 }
 
